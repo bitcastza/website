@@ -1,0 +1,11 @@
+baseURL = "https://bitcast.co.za/"
+languageCode = "en-za"
+title = "BitCast"
+theme = "hugo-universal-theme"
+
+[params]
+email = "info@bitcast.co.za"
+about_us = "BitCast provides broadcast IT solutions and studio services"
+
+[params.features]
+enable = true
