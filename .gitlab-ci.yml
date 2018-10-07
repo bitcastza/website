@@ -1,0 +1,11 @@
+staging:
+    stage: deploy
+    script:
+        - apt-get update && apt-get install -y -qq hugo
+        - ./scripts/deploy.sh
+    environment:
+        name: production
+        url: https://bitcast.co.za
+    only:
+        - master
+
