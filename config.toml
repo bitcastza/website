@@ -6,6 +6,9 @@ theme = "hugo-universal-theme"
 [params]
 email = "info@bitcast.co.za"
 about_us = "BitCast provides broadcast IT solutions and studio services"
+copyright = "Copyright (c) 2018, BitCast; all rights reserved."
+logo = "img/logo.png"
+logo_small = "img/logo.png"
 
 [params.features]
 enable = true
