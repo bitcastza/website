@@ -12,3 +12,13 @@ logo_small = "img/logo.png"
 
 [params.features]
 enable = true
+
+[[menu.main]]
+name = "Home"
+url  = "/"
+weight = 1
+
+[[menu.main]]
+name = "Contact"
+url  = "/contact/"
+weight = 4
