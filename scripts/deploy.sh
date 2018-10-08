@@ -12,3 +12,5 @@ echo "$SSH_ID" >> ~/.ssh/known_hosts
 
 hugo
 scp -r -P $PORT public/* $URL:/var/www/html/$URL
+
+ssh -p $PORT $URL "chown -R www-data:www-data /var/www/html/$URL"
