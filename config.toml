@@ -6,9 +6,10 @@ theme = "hugo-universal-theme"
 [params]
 email = "info@bitcast.co.za"
 about_us = "Bitcast provides broadcast IT solutions and studio services"
-copyright = "Copyright (c) 2018, Bitcast (Pty) Ltd 2019/140776/07; all rights reserved."
+copyright = "Copyright (c) 2018-2020, Bitcast (Pty) Ltd 2019/140776/07; all rights reserved."
 logo = "img/logo.png"
 logo_small = "img/logo.png"
+date_format = ""
 
 [params.features]
 enable = true
@@ -22,6 +23,11 @@ subtitle = "We have proudly worked with the following companies."
 name = "Home"
 url  = "/"
 weight = 1
+
+[[menu.main]]
+name = "COVID-19"
+url  = "https://sacoronavirus.co.za/"
+weight = 2
 
 [[menu.main]]
 name = "Contact"
