@@ -12,6 +12,6 @@ mkdir ~/.ssh && chmod 700 ~/.ssh
 echo "$SSH_ID" >> ~/.ssh/known_hosts
 
 hugo
-scp -r -P $PORT public/* $CONNECTION_URI:/var/www/html/$URL
+scp -C -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -r -P $PORT public/* $CONNECTION_URI:/var/www/html/$URL
 
-ssh -p $PORT $CONNECTION_URI "chown -R www-data:www-data /var/www/html/$URL"
+ssh -C -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -p $PORT $CONNECTION_URI "chown -R www-data:www-data /var/www/html/$URL"
