@@ -1,0 +1,12 @@
+weight: 3
+title: Online Services
+description: >
+  <p>
+    Providing state of the art managed online services to fit your business needs
+  </p>
+  <ul class="list-style-none">
+    <li>Website and Email</li>
+    <li>File sharing</li>
+    <li>Contact and Calendar management</li>
+  </ul>
+image: "img/carousel/online_services.png" 

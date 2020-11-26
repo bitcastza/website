@@ -4,12 +4,15 @@ title = "Bitcast"
 theme = "hugo-universal-theme"
 
 [params]
-email = "info@bitcast.co.za"
-about_us = "Bitcast provides broadcast IT solutions and studio services"
+email = "f/xrgoklaw"
+about_us = "Bitcast provides IT solutions and broadcast studio services"
 copyright = "Copyright (c) 2018-2020, Bitcast (Pty) Ltd 2019/140776/07; all rights reserved."
 logo = "img/logo.png"
 logo_small = "img/logo.png"
 date_format = ""
+
+[params.carousel]
+enable = true
 
 [params.features]
 enable = true

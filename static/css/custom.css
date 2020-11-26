@@ -1,0 +1,74 @@
+/* your styles go here */
+
+p {
+  font-size: 16px;
+}
+
+.box-image-text .image {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.box-simple {
+  min-height: 230px;
+}
+
+#post-content .fig-img {
+  text-align: center;
+  color: black;
+  border: thin silver solid;
+  border-radius: 8px;
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: LightGray;
+}
+
+#post-content figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 800px) {
+  .fig-right {
+    float: right;
+  }
+
+  .fig-left {
+    float: left;
+  }
+
+  #post-content .fig-img {
+    max-width: 40%;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  #post-content figure {
+    max-width: 90%;
+  }
+}
+
+.carousel .item {
+  height: 300px;
+}
+
+.carousel .item img {
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 300px;
+}
+
+.carousel-caption {
+  text-align: center;
+  color: black;
+  text-shadow: 0 0 5px white;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  border: thin silver solid;
+  border-radius: 8px;
+  background-color: LightGray;
+}
+
+.navbar-right .dropdown {
+  text-align: right;
+}

@@ -1,0 +1,5 @@
+weight: 3
+name: "3D Printing"
+icon: "fa fa-cubes"
+description: "Full 3D printing services"
+url: "features/3d-printing/"

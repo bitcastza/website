@@ -1,0 +1,10 @@
+<div class="item {{ with .Get "class"}} {{.}}{{ end }}">
+  <a href="{{ .Get "link" }}" target="_blank">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}"/>
+    {{ with .Get "caption" }}
+    <div class="carousel-caption">
+      <p>{{.}}</p>
+    </div>
+    {{ end }}
+  </a>
+</div>
