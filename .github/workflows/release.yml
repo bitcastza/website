@@ -27,7 +27,7 @@ jobs:
         name: Build & push Docker image
         if: steps.semantic.outputs.new_release_published == 'true'
         with:
-          image: bitcastza/website
+          image: website
           tags: ${{ steps.semantic.outputs.new_release_version }}, latest
           dockerfile: ./Dockerfile
           registry: ${{ env.REGISTRY }}
