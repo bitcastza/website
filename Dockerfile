@@ -1,4 +1,4 @@
-FROM klakegg/hugo:0.102.3-debian AS build
+FROM klakegg/hugo:0.104.0-debian AS build
 
 WORKDIR /app
 COPY . /app/
