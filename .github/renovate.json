@@ -3,5 +3,6 @@
     "config:base",
     ":preserveSemverRanges",
     ":disableDependencyDashboard"
-  ]
+  ],
+  "semanticCommitType": "perf"
 }
