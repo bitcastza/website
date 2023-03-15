@@ -1,4 +1,4 @@
-weight: 3
+weight: 2
 title: Online Services
 description: >
   <p>
@@ -9,4 +9,4 @@ description: >
     <li>File sharing</li>
     <li>Contact and Calendar management</li>
   </ul>
-image: "img/carousel/online_services.png" 
+image: "img/carousel/online_services.png"

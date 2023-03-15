@@ -1,0 +1,12 @@
+weight: 1
+title: Consulting
+description: >
+  <p>
+    Our experienced Site Reliability and DevOps engineers are ready to help you get your application to the next level
+  </p>
+  <ul class="list-style-none">
+    <li>Kubernetes</li>
+    <li>Deployment Pipelines</li>
+    <li>GitOps</li>
+  </ul>
+image: "img/carousel/consulting.jpg"
