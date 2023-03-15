@@ -4,9 +4,9 @@ title = "Bitcast"
 theme = "hugo-universal-theme"
 
 [params]
-email = "f/xrgoklaw"
+
 about_us = "Bitcast provides personalised IT consulting and solutions"
-copyright = "Copyright (c) 2018-2022, Bitcast (Pty) Ltd 2019/140776/07; all rights reserved."
+copyright = "Copyright (c) 2018-2023, Bitcast (Pty) Ltd 2019/140776/07; all rights reserved."
 logo = "img/logo.png"
 logo_small = "img/logo.png"
 date_format = ""
