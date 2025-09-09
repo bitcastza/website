@@ -22,7 +22,6 @@ jobs:
             '**/*.md'
             --require-https
             --exclude-all-private
-            --exclude-mail
           fail: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
