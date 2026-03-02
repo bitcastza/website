@@ -23,5 +23,5 @@ running and maximum efficiency as smoothly as possible. We are knowledgable
 about Kubernetes, Terraform, Ansible and the latest innovations in cloud
 computing.
 
-[Contact Us](/contact/) and let us work with you to bring the next great service
+[Contact Us](../../contact/) and let us work with you to bring the next great service
 to production.
