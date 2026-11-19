@@ -4,6 +4,6 @@ WORKDIR /app
 COPY . /app/
 RUN hugo
 
-FROM nginx:1.31.8
+FROM nginx:1.31.9
 COPY --from=build /app/public /usr/share/nginx/html/
 CMD ["nginx-debug", "-g", "daemon off;"]
